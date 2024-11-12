@@ -34,5 +34,8 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.BODY_SENSORS_BACKGROUND"/>
+    <uses-permission android:name="android.permission.BODY_SENSORS"
+        android:permissionGroup="android.permission-group.SENSORS"/>
 
 </manifest>
